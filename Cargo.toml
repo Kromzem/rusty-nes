@@ -1,7 +1,11 @@
 [workspace]
 members = ["engine", "tui"]
+resolver = "2"
 
 [workspace.package]
 name = "rusty-nes"
 version = "0.1.0"
 edition = "2021"
+
+[workspace.dependencies]
+anyhow = "1.0.82"
